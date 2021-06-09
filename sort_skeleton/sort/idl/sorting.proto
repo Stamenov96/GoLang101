@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option go_package = "github.com/Stamenov96/GoLang101/sort/gen";
+
+import "types.proto";
+
+service SortingRobot {
+  rpc LoadItems(LoadItemsRequest) returns (LoadItemsResponse) {}
+  rpc SelectItem(SelectItemRequest) returns (SelectItemResponse) {}
+  rpc MoveItem(MoveItemRequest) returns (MoveItemResponse) {}
+}
+
+message LoadItemsRequest {
+    repeated types.Item items = 1;
+}
+
+message LoadItemsResponse {}
+
+message SelectItemRequest {}
+
+message SelectItemResponse {
+  types.Item item = 1;
+}
+
+message MoveItemRequest {
+  types.Cubby cubby = 1;
+}
+
+message MoveItemResponse {}
