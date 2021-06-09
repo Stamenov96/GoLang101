@@ -18,12 +18,12 @@ func (s *sortingService) LoadItems(context.Context, *gen.LoadItemsRequest) (*gen
 	return nil, errors.New("not implemented")
 }
 
-func (s *sortingService) MoveItem(context.Context, *gen.MoveItemRequest) (*gen.MoveItemResponse, error) {
+func (s *sortingService) SelectItem(context.Context, *gen.SelectItemRequest) (*gen.SelectItemResponse, error) {
 	// TODO: Implement this
 	return nil, errors.New("not implemented")
 }
 
-func (s *sortingService) SelectItem(context.Context, *gen.SelectItemRequest) (*gen.SelectItemResponse, error) {
+func (s *sortingService) MoveItem(context.Context, *gen.MoveItemRequest) (*gen.MoveItemResponse, error) {
 	// TODO: Implement this
 	return nil, errors.New("not implemented")
 }
