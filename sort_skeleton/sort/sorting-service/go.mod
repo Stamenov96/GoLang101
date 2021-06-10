@@ -1,4 +1,4 @@
-module github.com/Stamenov96/GoLang101/sort_skeleton/sort/
+module github.com/Stamenov96/GoLang101/sort_skeleton/sort/sorting-service
 
 go 1.16
 
