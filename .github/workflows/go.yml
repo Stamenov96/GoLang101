@@ -19,7 +19,7 @@ jobs:
         go-version: 1.16
         
     - name: Build GRPC
-      working-directory: ./sort_skeleton/sort/make grpc-compile
+      working-directory: ./sort_skeleton/sort/
       run: make grpc-compile
 
     - name: Build
