@@ -20,7 +20,8 @@ jobs:
         
     - name: Build GRPC
       working-directory: ./sort_skeleton/sort/make grpc-compile
-      
+      run: make grpc-compile
+
     - name: Build
       working-directory: ./sort_skeleton/sort/sorting-service
       run: go build -v ./...
