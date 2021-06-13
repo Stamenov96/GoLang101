@@ -5,7 +5,7 @@ import (
 	"errors"
 	"math/rand"
 
-	"github.com/Stamenov96/GoLang101/sort/gen"
+	"github.com/Stamenov96/GoLang101/sort_skeleton/sort/gen"
 )
 
 func newSortingService() gen.SortingRobotServer {

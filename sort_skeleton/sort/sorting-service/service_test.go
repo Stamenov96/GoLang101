@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/Stamenov96/GoLang101/sort/gen"
+	"github.com/Stamenov96/GoLang101/sort_skeleton/sort/gen"
 	"github.com/stretchr/testify/assert"
 )
 
