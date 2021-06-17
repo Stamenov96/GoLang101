@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/bbsbb/go-at-ocado/sort/gen"
+	"github.com/Stamenov96/GoLang101/fulfillment-service/sort/gen"
 )
 
 func newFulfillmentService() gen.FulfillmentServer {
